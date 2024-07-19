@@ -85,7 +85,7 @@ ul {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;git add --al
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -94,12 +94,13 @@ ul {
   color: #fff;
   border: none;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  font-weight: 500;
 }
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .footer {
@@ -173,4 +174,14 @@ ul {
 }
 .hero-section {
   background-color: #2e2f42;
+}
+.advantages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.adv-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
