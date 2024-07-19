@@ -187,3 +187,17 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.section-team-bckgrnd-color {
+  background-color: #ffffff;
+}
+.team-member-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-member-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
