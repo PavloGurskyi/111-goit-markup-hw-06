@@ -82,11 +82,11 @@ ul {
   background-color: #2e2f42;
 }
 .hero-title {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
-  font-size: 56;
-  line-height: 60px;
-  letter-spacing: 2%;
+  font-size: 56px;
+  line-height: 1.07;git add --al
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
@@ -170,4 +170,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.hero-section {
+  background-color: #2e2f42;
 }
