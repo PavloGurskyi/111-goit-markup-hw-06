@@ -59,6 +59,9 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+.address {
+  font-style: normal;
+}
 .address .link {
   color: #434455;
   font-style: normal;
