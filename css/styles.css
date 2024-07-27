@@ -35,6 +35,9 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .nav-container {
   align-items: center;
 }
@@ -307,6 +310,7 @@ ul {
 }
 .footer-logo-flexbox {
   display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
@@ -316,17 +320,12 @@ ul {
 .footer {
   background-color: #2e2f42;
   color: #fff;
-  padding: 100px 0px 100px 15px;
+  padding: 100px 0;
 }
 .footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-.footer-text-block {
   display: flex;
   width: 264px;
-}
-.header {
-  border-bottom: 1px solid #e7e9fc;
 }
