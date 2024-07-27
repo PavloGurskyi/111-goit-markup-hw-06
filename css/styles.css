@@ -132,6 +132,12 @@ ul {
   display: flex;
   display: block;
   justify-content: center;
+  padding: 188px 0;
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-title {
   color: #ffffff;
@@ -139,14 +145,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-  margin-top: 68px;
-}
-.butt {
-  display: flex;
-  justify-content: center;
-  margin-top: 48px;
-  margin-bottom: 68px;
+  max-width: 496px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -158,9 +157,9 @@ ul {
   text-align: center;
   cursor: pointer;
   font-weight: 500;
-  justify-content: center;
   padding: 16px 32px;
   flex-direction: center;
+  margin-top: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
