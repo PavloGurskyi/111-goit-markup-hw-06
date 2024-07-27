@@ -160,10 +160,14 @@ ul {
   padding: 16px 32px;
   flex-direction: center;
   margin-top: 48px;
+  min-width: 169px;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+.adv-section {
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -177,12 +181,22 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.adv-div {
+  gap: 24px;
+}
 .adv-card {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   flex-basis: calc((100% - 72px) / 4);
+}
+.advantages-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .logo-studio-footer {
   color: #f4f4fd;
@@ -275,12 +289,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.advantages-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .team-member-subtitle {
   font-weight: 500;
