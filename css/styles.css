@@ -274,6 +274,7 @@ ul {
   background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
+  padding: 120px 0;
 }
 .our-team-subtitle {
   font-size: 36px;
