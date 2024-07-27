@@ -43,9 +43,6 @@ ul {
 .header-in-row {
   justify-content: space-between;
 }
-.logo-container {
-  padding: 24px 76px 24px 0px;
-}
 .container-header {
   gap: 40px;
   padding: 24px 0px;
@@ -63,7 +60,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 40px;
+  /* gap: 40px;
+  padding: 24px 0px; */
 }
 .nav .nav-link:hover,
 .nav .nav-link:focus,
