@@ -49,13 +49,10 @@ ul {
 .header-in-row {
   justify-content: space-between;
 }
-.address-header {
-  padding: 24px 0px;
-  display: flex;
-}
 .address-links-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .nav-link {
   font-weight: 500;
