@@ -20,18 +20,16 @@ p {
 ul {
   margin: 0;
   padding-left: 0px;
+  list-style-type: none;
 }
 .link {
   text-decoration: none;
   font-style: normal;
 }
 .container {
-  /* display: flex; */
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 120px;
@@ -77,9 +75,7 @@ ul {
 .address .link:active {
   color: #404bbf;
 }
-ul {
-  list-style-type: none;
-}
+
 .nav .logo-web {
   color: #4d5ae5;
   text-transform: uppercase;
@@ -167,6 +163,25 @@ ul {
 .hero-button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.adv-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-basis: calc((100% - 72px) / 4);
+}
 .footer {
   background-color: #2e2f42;
   color: #fff;
@@ -204,13 +219,14 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.portfolio {
+.portfolio-subtitle {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .app-header {
   font-weight: 500;
@@ -224,9 +240,32 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.team-div,
+.portfolio-div,
+.adv-div {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  flex-basis: calc((100% - 72px) / 4);
+}
 .our-team {
   background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
 }
 .our-team-subtitle {
   font-size: 36px;
@@ -235,6 +274,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .adv-text {
   font-size: 16px;
@@ -248,9 +288,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-team-bckgrnd-color {
-  background-color: #ffffff;
-}
 .team-member-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -261,4 +298,18 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.team-title {
+  margin-bottom: 72px;
+}
+.portfolio-text-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
