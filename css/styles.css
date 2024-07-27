@@ -182,10 +182,6 @@ ul {
   flex-direction: column;
   flex-basis: calc((100% - 72px) / 4);
 }
-.footer {
-  background-color: #2e2f42;
-  color: #fff;
-}
 .logo-studio-footer {
   color: #f4f4fd;
   text-transform: uppercase;
@@ -212,11 +208,6 @@ ul {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   line-height: calc(21 / 18);
-}
-.footer-p {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
 
 .portfolio-subtitle {
@@ -312,4 +303,26 @@ ul {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
+}
+.footer-logo-flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  margin-bottom: 16px;
+}
+.footer {
+  background-color: #2e2f42;
+  color: #fff;
+  padding: 100px 0px 100px 15px;
+}
+.footer-p {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.footer-text-block {
+  display: flex;
+  width: 264px;
 }
