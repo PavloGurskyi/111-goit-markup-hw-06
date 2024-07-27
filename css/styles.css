@@ -35,6 +35,12 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.nav-container {
+  align-items: center;
+}
+.container-header {
+  gap: 40px;
+}
 .header-in-row,
 .nav-container,
 .container-header {
@@ -42,10 +48,6 @@ ul {
 }
 .header-in-row {
   justify-content: space-between;
-}
-.container-header {
-  gap: 40px;
-  padding: 24px 0px;
 }
 .address-header {
   padding: 24px 0px;
@@ -60,8 +62,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* gap: 40px;
-  padding: 24px 0px; */
+  padding: 24px 0;
 }
 .nav .nav-link:hover,
 .nav .nav-link:focus,
@@ -198,6 +199,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-studio-header {
   color: #2e2f42;
@@ -323,4 +325,7 @@ ul {
 .footer-text-block {
   display: flex;
   width: 264px;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
