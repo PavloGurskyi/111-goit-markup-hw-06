@@ -125,6 +125,9 @@ ul {
 
 .hero-section {
   background-color: #2e2f42;
+  background-image: url(../images/4-people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   display: block;
   justify-content: center;
@@ -185,6 +188,7 @@ ul {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  gap: 8px;
   flex-basis: calc((100% - 72px) / 4);
 }
 .advantages-subtitle {
@@ -345,4 +349,14 @@ ul {
   letter-spacing: 0.02em;
   display: flex;
   width: 264px;
+}
+.advan-icon-box {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
