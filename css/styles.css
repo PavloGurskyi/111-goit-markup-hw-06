@@ -432,3 +432,6 @@ ul {
 .icon-link:focus {
   background-color: #404bbf;
 }
+.icon-icon {
+  fill: #f4f4fd;
+}
