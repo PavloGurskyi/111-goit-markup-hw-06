@@ -414,3 +414,7 @@ ul {
 .footer-social-icon:hover {
   fill: #31d0aa;
 }
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
