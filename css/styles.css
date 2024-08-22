@@ -138,7 +138,6 @@ ul {
   color: #404bbf;
 }
 .hero-section {
-  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -149,6 +148,7 @@ ul {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  max-width: 1440px;
 }
 .hero-div {
   display: flex;
@@ -379,7 +379,10 @@ ul {
 }
 .footer-row {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+.logo-text {
+  margin-right: 120px;
 }
 .footer-links-list {
   display: flex;
