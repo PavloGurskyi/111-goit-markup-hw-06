@@ -204,7 +204,7 @@ a {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
-    .start {
+    .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hw-06/people-office-mob@2x.jpg);
     }
 }
@@ -218,7 +218,7 @@ a {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 2dppx),
         (min-resolution: 192dpi) {
-            .start {
+            .hero-section {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hw-06/people-office-tab@2x.jpg);
             }
         }
@@ -232,7 +232,7 @@ a {
   @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
-    .start {
+    .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hw-06/people-office@2x.jpg);
     }
 }
@@ -292,14 +292,6 @@ a {
 .adv-div {
   gap: 24px;
 }
-/* .adv-card {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  flex-basis: calc((100% - 72px) / 4); } */
-
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
