@@ -1209,13 +1209,17 @@ width: calc((100% - 72px) / 4);
 .menu-list-item:focus {
   color: #404bbf;
 }
+.mobile-address {
+  margin-bottom: 48px;
+}
 .menu-contacts-list {
   font-style: normal;
   display: flex;
   flex-direction: column;
+  gap: 24px;
   }
 .menu-contacts-item {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
